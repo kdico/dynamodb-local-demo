@@ -1,0 +1,13 @@
+FROM public.ecr.aws/lambda/nodejs:14
+
+ENV AWS_REGION=DUMMY
+ENV AWS_ACCESS_KEY_ID=DUMMY
+ENV AWS_SECRET_ACCESS_KEY=DUMMY
+
+COPY . ${LAMBDA_TASK_ROOT}
+
+WORKDIR ${LAMBDA_TASK_ROOT}
+
+RUN npm install
+
+CMD ["index.handler"]
