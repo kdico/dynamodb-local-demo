@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-local-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jrdelxbun@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.41.0",
+    "@aws-sdk/util-dynamodb": "^3.41.0",
+    "chance": "^1.1.8",
+    "uuid": "^8.3.2"
+  }
+}
