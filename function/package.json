@@ -1,13 +1,10 @@
 {
   "name": "dynamodb-local-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample function that uses a local DynamoDB.",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "jrdelxbun@icloud.com",
-  "license": "ISC",
+  "author": "kdico <jokey_mixers_0u@icloud.com>",
+  "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.41.0",
     "@aws-sdk/util-dynamodb": "^3.41.0",
